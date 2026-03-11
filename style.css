@@ -1,5 +1,68 @@
 * {
+    box-sizing: border-box;
+    outline: 1px solid red;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    height: 100vh;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 100px;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 600px;
+    gap: 10px;
+}
+
+button {
+    display: flex;
+    align-self: flex-start;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+figure {
+    width: 600px;
+    height: 400px;
+}
+
+img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
 }
